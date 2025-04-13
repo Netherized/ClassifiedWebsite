@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MIRA: Classified - Downloads</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      flex-direction: column;
+    }
+    
+    button {
+      padding: 10px 15px;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 5px;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>MIRA: Classified</h1>
+  <h2>Downloads</h2>
+  <h3>Main Mods</h3>
+  <div class="container">
+    <a href="https://github.com/Netherized/ModReleases/raw/refs/heads/main/ModExample.zip" download="ModExample.zip">
+      <button type="button" name="idealsDownload" disabled>
+        <h3>Darkest Ideals (to be renamed) <br> <small>(Releases April 2025)</small></h3>
+    	  <p>The prequel to MIRA: Classified! Contains one song.</p>
+      </button>
+    </a>
+    <button type="button" name="currentDownload" disabled>
+      <h3>MIRA: Classified <br> <small>(Unreleased)</small> </h3>
+  	  <p>The main mod. Includes 15+ songs and a full overworld!</p>
+    </button>
+  </div>
+  <h3>Cancelled/Old Versions</h3>
+  <a href="https://github.com/Netherized/ModReleases/raw/refs/heads/main/ModExample.zip" download="ModExample.zip">
+    <div class="container">
+      <button type="button" name="oldDownload" disabled>
+        <h3>Untitled Impostor Retake <br> <small>(Releases March 2025)</small></h3>
+    	  <p>MIRA: Classified before it's soft reboot! A retake of Vs Impostor.</p>
+      </button>
+    </div>
+  </a>
+  
+  <button type="button" name="backButton" onclick="window.location.href='index.html';">
+    <h3>Back</h3>
+  </button>
+</body>
+
+</html>
